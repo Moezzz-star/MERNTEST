@@ -24,7 +24,7 @@ async function run() {
     const created = await users.insertOne({
       name: "Moez",
       age: 24,
-      email: "moez@test.com",
+      email: "moez@test1.com",
     });
 
     console.log("✅ Created user:", created.insertedId);
