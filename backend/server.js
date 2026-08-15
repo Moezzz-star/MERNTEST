@@ -40,7 +40,7 @@ if (!JWT_SECRET) {
 
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://merntest-gray.vercel.app",
+  "https://merntest-zouari.vercel.app",
 ];
 
 app.use(
